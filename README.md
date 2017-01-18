@@ -17,7 +17,7 @@ GLMObservation has unit tests: `python setup.py test`
 Pull the latest observation file and print out the first observation's station
 type, air temperature, air pressure and water temperature
 
-```
+```python
 import lmdparser.download_obs
 
 latest_observations = lmdparser.download_obs.get_latest_observations()
@@ -40,4 +40,4 @@ print("Obs from {0} {1}, Air Temp: {1}, Pressure {2}, Water Temp: {3}"
 
 * Demos using matplotlib?
 
-Feedbacl/contributions welcome!
+Feedback/contributions welcome!
